@@ -1,0 +1,247 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+#logo {
+    width: 200px;
+}
+
+#slogan-region {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1701/Person_using_laptop_computer-Brand_HD_Wallpaper_1366x768.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+}
+
+#nav-links {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.page-link {
+    text-decoration: none;
+}
+
+.page-link:hover {
+    color: rgb(109, 52, 214);
+    font-size: 26px;
+}
+
+#nav-button {
+    width: 12%;
+    padding: 0.5rem;
+    background-color: rgb(87, 37, 180);
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: bolder;
+}
+
+#slogan {
+    width: 45%;
+    display: flexbox;
+    margin: 3rem 0 0 5.2rem;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+h1 {
+    font-size: 45px;
+    color: rgb(87, 37, 180);
+    font-weight: bolder;
+    text-shadow: rgb(255, 255, 255) -0.1em 0.1em 0.2em;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(72, 37, 138);
+}
+
+#slogan-button {
+    width: 45%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(87, 37, 180);
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: bolder;
+}
+
+#slogan-button:after {
+    content:'\25BA'
+}
+
+#cards {
+    display: flex;
+    margin: auto;
+    margin-top: -5.5rem;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    width: 78%;
+    border-radius: 0.5rem;
+}
+
+.card-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.horizontal-logo {
+    align-items: center;
+    width: 150px;
+    height: 100px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    font-size: 20px;
+}
+
+h2 {
+    width: 75%;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: dimgray;
+}
+
+.sec-div {
+    width: 78%;
+    margin: auto;
+    padding: 2rem 0 2rem 0;
+}
+
+.infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#team-img {
+    width: 440px;
+}
+
+.who-text {
+    font-size: 28px;
+    margin: 0 1rem 0 3rem;
+    text-align: justify;
+    color:rgb(102, 101, 101);
+}
+
+#programs-img {
+    width: 400px;
+    margin-right: 1rem;
+}
+
+.what-text {
+    font-size: 28px;
+    margin-right: 3rem;
+    text-align: justify;
+    color:rgb(102, 101, 101);
+}
+
+#why-img {
+    width: 550px;
+    margin-right: 0.9rem;
+}
+
+.why-text {
+    font-size: 20px;
+    margin: 0.5rem 2rem 0.5rem 0;
+    text-align: left;
+    color:rgb(102, 101, 101);
+}
+
+.topic {
+    display: flex;
+    width: 105%;
+    align-items: center;
+}
+
+.topic-img {
+    width: 60px;
+    margin-right: 1.5rem;
+}
+
+h3 {
+    color: rgb(87, 37, 180);
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#sec-why {
+    margin-left: -1.5rem;
+}
+
+footer {
+    padding: 1rem;
+    background-color: rgb(131, 63, 160);
+}
+
+#footer-imgs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#redes-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.rs-icon {
+    width: 70px;
+}
+
+.small-icon {
+    width: 60px;
+}
+
+#footer-p {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0 0 1.5rem;
+    color: white;
+}
+
+#footer-logo {
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.secmap-div {
+    display: flex;
+    align-items: center;
+    width: 78%;
+    margin-left: 8rem;
+    padding: 2rem 0 2rem 0;
+}
+
+#map {
+    margin: 0 3rem 0 0;
+}
+
+#map-title {
+    width: 90%;
+}
